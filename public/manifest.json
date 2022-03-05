@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Adlemas Editor",
+  "name": "Synchronouse Editor by Adlemas",
   "icons": [
     {
       "src": "favicon.ico",

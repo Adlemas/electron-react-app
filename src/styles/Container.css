@@ -1,0 +1,7 @@
+.container {
+  flex: 1;
+  color: var(--primary-text-color);
+  background-color: var(--secondary-background-color);
+  display: flex;
+  align-items: flex-start;
+}

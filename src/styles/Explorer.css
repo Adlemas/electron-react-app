@@ -1,0 +1,94 @@
+.Explorer {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.Explorer-bar {
+  min-width: 100%;
+  max-height: 35px;
+  padding: 2.5px 10px;
+  font-size: 12px;
+
+  box-shadow: 0 2px 5px #0005;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Explorer-bar > nav > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.Explorer-bar > nav > ul > li {
+  padding: 3px 5px;
+  border-radius: 4px;
+  transition: 50ms;
+  cursor: pointer;
+  margin-left: 6px;
+  user-select: none;
+}
+
+.Explorer-bar > nav > ul > li:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.Explorer-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Explorer-list > li {
+  width: 100%;
+  padding: 4px 10px;
+  font-size: 13.5px;
+  font-weight: 300;
+  user-select: none;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+
+  transition-duration: 0ms;
+}
+
+.Explorer-list > li > * {
+  margin-right: 10px;
+}
+
+.Explorer-list > li.selected {
+  background-color: var(--primary-hover-color);
+}
+
+.Explorer-list > li:hover {
+  background-color: var(--secondary-hover-color);
+}
+
+.Explorer-list > li.selected:hover {
+  background-color: var(--primary-hover-color);
+}
+
+.ExplorerHolder {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 15px 15px;
+}
+
+.ExplorerHolder button {
+  margin-top: 20px;
+}
+
+.ExplorerHolder small {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
